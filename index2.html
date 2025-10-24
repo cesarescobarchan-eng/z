@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Zeta - Innovación para el Futuro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-color: #0a0a0a;
+            background-image: radial-gradient(circle at 1px 1px, #292929 1px, transparent 0);
+            background-size: 25px 25px;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200">
+
+    <!-- Header / Navegación -->
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-700/50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white tracking-wider">
+                PROYECTO <span class="text-cyan-400">ZETA</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="#inicio" class="text-gray-300 hover:text-cyan-400 transition duration-300">Inicio</a>
+                <a href="#sobre-nosotros" class="text-gray-300 hover:text-cyan-400 transition duration-300">Sobre Nosotros</a>
+                <a href="#caracteristicas" class="text-gray-300 hover:text-cyan-400 transition duration-300">Características</a>
+                <a href="#blog" class="text-gray-300 hover:text-cyan-400 transition duration-300">Blog</a>
+                <a href="#contacto" class="text-gray-300 hover:text-cyan-400 transition duration-300">Contacto</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
+        </div>
+        <!-- Menú Móvil -->
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800">
+            <a href="#inicio" class="block py-2 px-6 text-gray-300 hover:bg-gray-700">Inicio</a>
+            <a href="#sobre-nosotros" class="block py-2 px-6 text-gray-300 hover:bg-gray-700">Sobre Nosotros</a>
+            <a href="#caracteristicas" class="block py-2 px-6 text-gray-300 hover:bg-gray-700">Características</a>
+            <a href="#blog" class="block py-2 px-6 text-gray-300 hover:bg-gray-700">Blog</a>
+            <a href="#contacto" class="block py-2 px-6 text-gray-300 hover:bg-gray-700">Contacto</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección Hero -->
+        <section id="inicio" class="hero-bg py-24 md:py-32">
+            <div class="container mx-auto px-6 text-center">
+                <h1 class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-4">
+                    Bienvenido al <span class="text-cyan-400">Proyecto Zeta</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8">
+                    Redefiniendo los límites de la tecnología para construir un mañana más brillante, eficiente y conectado para todos.
+                </p>
+                <a href="#sobre-nosotros" class="bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded-full transition duration-300 text-lg shadow-lg shadow-cyan-500/20">
+                    Descubre Más
+                </a>
+            </div>
+        </section>
+
+        <!-- Sección Sobre Nosotros -->
+        <section id="sobre-nosotros" class="py-20 bg-gray-800/50">
+                                    <img src="sinfondo_logo (1).png" alt="Logo del Proyecto Zeta" class="rounded-lg shadow-2xl w-full h-auto">
+                    </div>
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-white">Nuestra Identidad</h2>
+                    <p class="text-gray-400 mt-2">Los pilares que guían al Proyecto Zeta.</p>
+                </div>
+
+                <!-- Misión y Logo -->
+                <div class="grid md:grid-cols-2 gap-12 items-center mb-16">
+                    <div class="order-2 md:order-1">
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-3">Misión</h3>
+                        <p class="text-gray-300">
+                            Desarrollar soluciones innovadoras que aborden los desafíos más complejos de la actualidad. Creemos en el poder de la colaboración y la tecnología de vanguardia para crear un impacto positivo y duradero en la sociedad, comprometidos con la excelencia, la ética y la sostenibilidad.
+                        </p>
+                    </div>
+                    <div>
+                    <div>
+                        <img src="redes_zeta(2).png.jpg" alt="Logo del Proyecto Zeta" class="rounded-lg shadow-2xl w-full h-auto">
+                    </div>
+                </div>
+
+                <!-- Visión y Valores -->
+                <div class="grid md:grid-cols-2 gap-8 mb-16">
+                    <!-- Visión -->
+                    <div class="bg-gray-800 p-8 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-3">Visión</h3>
+                        <p class="text-gray-300">
+                            Ser líderes mundiales en la creación de tecnología que no solo impulse el progreso, sino que también construya un futuro más equitativo, conectado y sostenible para las generaciones venideras.
+                        </p>
+                    </div>
+                    <!-- Valores -->
+                    <div class="bg-gray-800 p-8 rounded-lg border border-gray-700">
+                        <h3 class="text-2xl font-bold text-cyan-400 mb-3">Valores</h3>
+                        <ul class="list-disc list-inside text-gray-300 space-y-2">
+                            <li><span class="font-semibold">Innovación:</span> Búsqueda constante de lo imposible.</li>
+                            <li><span class="font-semibold">Integridad:</span> Compromiso con la ética y la transparencia.</li>
+                            <li><span class="font-semibold">Colaboración:</span> Creemos que juntos llegamos más lejos.</li>
+                            <li><span class="font-semibold">Impacto:</span> La tecnología debe servir a la humanidad.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Slogan -->
+                <div class="text-center border-t border-cyan-500/30 pt-8">
+                    <p class="text-2xl font-light italic text-gray-300">"Diviértete aprendiendo"</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de Características -->
+        <section id="caracteristicas" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">Características Clave</h2>
+                    <p class="text-gray-400 mt-2">Lo que hace único al Proyecto Zeta.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Característica 1 -->
+                    <div class="bg-gray-800 p-8 rounded-lg text-center transform hover:scale-105 transition duration-300 border border-gray-700">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-cyan-900/50 mx-auto mb-6">
+                             <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Tecnología de Punta</h3>
+                        <p class="text-gray-400">Utilizamos los últimos avances en inteligencia artificial y computación cuántica.</p>
+                    </div>
+                    <!-- Característica 2 -->
+                    <div class="bg-gray-800 p-8 rounded-lg text-center transform hover:scale-105 transition duration-300 border border-gray-700">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-cyan-900/50 mx-auto mb-6">
+                            <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Seguridad Robusta</h3>
+                        <p class="text-gray-400">Diseñado con encriptación de extremo a extremo para proteger tus datos.</p>
+                    </div>
+                    <!-- Característica 3 -->
+                    <div class="bg-gray-800 p-8 rounded-lg text-center transform hover:scale-105 transition duration-300 border border-gray-700">
+                        <div class="flex items-center justify-center h-16 w-16 rounded-full bg-cyan-900/50 mx-auto mb-6">
+                             <svg class="w-8 h-8 text-cyan-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9V3m0 18a9 9 0 009-9m-9 9a9 9 0 00-9-9"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Escalabilidad Global</h3>
+                        <p class="text-gray-400">Infraestructura preparada para crecer y adaptarse a la demanda mundial.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Sección de Blog -->
+        <section id="blog" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-white">Desde Nuestro Blog</h2>
+                    <p class="text-gray-400 mt-2">Ideas y perspectivas de los líderes del Proyecto Zeta.</p>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                    <!-- Artículo 1 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <img class="w-12 h-12 rounded-full mr-4 object-cover" src="https://placehold.co/100x100/0f172a/ffffff?text=AC" alt="Avatar de Steffany">
+                                <div>
+                                    <p class="text-white font-semibold">Steffany</p>
+                                    <p class="text-sm text-gray-400">Líder de Proyecto</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">El Futuro es Cuántico: Cómo nos Preparamos</h3>
+                            <p class="text-gray-400 mb-4 text-sm leading-relaxed">La computación cuántica no es ciencia ficción; es la próxima frontera. Exploro los pasos que tomamos para integrar esta tecnología en el núcleo del Proyecto Zeta.</p>
+                        </div>
+                        <div class="mt-auto bg-gray-800/50 p-6 pt-0"><a href="articulo1.html" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-semibold text-sm">Leer más &rarr;</a></div>
+                    </div>
+
+                    <!-- Artículo 2 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <img class="w-12 h-12 rounded-full mr-4 object-cover" src="https://placehold.co/100x100/0f172a/ffffff?text=S" alt="Avatar de Andrea">
+                                <div>
+                                    <p class="text-white font-semibold">Paola</p>
+                                    <p class="text-sm text-gray-400">Especialista en IA</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Ética y Transparencia en la IA Moderna</h3>
+                            <p class="text-gray-400 mb-4 text-sm leading-relaxed">Discutimos nuestro marco ético para el desarrollo de IA, asegurando que nuestras innovaciones siempre sirvan a la humanidad de manera justa y transparente.</p>
+                        </div>
+                        <div class="mt-auto bg-gray-800/50 p-6 pt-0"><a href="articulo2.html" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-semibold text-sm">Leer más &rarr;</a></div>
+                    </div>
+
+                    <!-- Artículo 3 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <img class="w-12 h-12 rounded-full mr-4 object-cover" src="https://placehold.co/100x100/0f172a/ffffff?text=GM" alt="Avatar de Javier">
+                                <div>
+                                    <p class="text-white font-semibold">Javier</p>
+                                    <p class="text-sm text-gray-400">Director de Operaciones</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Escalando la Innovación: De la Idea al Mercado</h3>
+                            <p class="text-gray-400 mb-4 text-sm leading-relaxed">Detallo las estrategias operativas que nos permiten llevar nuestras soluciones desde el laboratorio hasta un despliegue global de manera eficiente y sostenible.</p>
+                        </div>
+                        <div class="mt-auto bg-gray-800/50 p-6 pt-0"><a href="articulo3.html" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-semibold text-sm">Leer más &rarr;</a></div>
+                    </div>
+
+                    <!-- Artículo 4 -->
+                    <div class="bg-gray-800 rounded-lg overflow-hidden border border-gray-700 flex flex-col transform hover:-translate-y-2 transition-transform duration-300">
+                        <div class="p-6">
+                            <div class="flex items-center mb-4">
+                                <img class="w-12 h-12 rounded-full mr-4 object-cover" src="https://placehold.co/100x100/0f172a/ffffff?text=J" alt="Avatar de cesarescobarcha">
+                                <div>
+                                    <p class="text-white font-semibold">Cesar</p>
+                                    <p class="text-sm text-gray-400">Jefe de Diseño</p>
+                                </div>
+                            </div>
+                            <h3 class="text-xl font-semibold text-white mb-2">Diseño Centrado en el Humano para Tecnologías</h3>
+                            <p class="text-gray-400 mb-4 text-sm leading-relaxed">Comparto nuestra filosofía de diseño, que pone la experiencia humana en el centro para crear interfaces intuitivas, accesibles y significativas.</p>
+                        </div>
+                        <div class="mt-auto bg-gray-800/50 p-6 pt-0"><a href="articulo4.html" target="_blank" class="text-cyan-400 hover:text-cyan-300 font-semibold text-sm">Leer más &rarr;</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Sección de Contacto -->
+        <section id="contacto" class="py-20 bg-gray-800/50">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl font-bold text-white">¿Interesado en Colaborar?</h2>
+                <p class="text-gray-400 mt-2 mb-4 max-w-2xl mx-auto">
+                    Puedes escribirnos a los siguientes correos:
+                </p>
+                <div class="text-gray-300 space-y-1">
+                    <p>Steffany@umes.edu.gt</p>
+                    <p>Javieruc@umes.edu.gt</p>
+                    <p>cesarescobarcha@umes.edu.gt</p>
+                    <p>paolachamorro@umes.edu.gt</p>
+                </div>
+                <p class="text-gray-400 mt-8 mb-4">
+                    Date una vuelta por nuestras redes:
+                </p>
+                <div class="flex justify-center space-x-6">
+                    <!-- Facebook -->
+                    <a href="https://www.facebook.com/steffany.cardenas.359" target="_blank" class="text-gray-400 hover:text-cyan-400 transition-transform duration-300 hover:scale-110">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/_teffys_mc/" target="_blank" class="text-gray-400 hover:text-cyan-400 transition-transform duration-300 hover:scale-110">
+                        <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.024.06 1.378.06 3.808s-.012 2.784-.06 3.808c-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.024.048-1.378.06-3.808.06s-2.784-.012-3.808-.06c-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.048-1.024-.06-1.378-.06-3.808s.012-2.784.06-3.808c.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 016.345 2.525c.636-.247 1.363-.416 2.427-.465C9.792 2.013 10.146 2 12.315 2zm-1.002 3.705c-1.42 0-2.572 1.152-2.572 2.572s1.152 2.572 2.572 2.572c1.42 0 2.572-1.152 2.572-2.572S12.733 5.705 11.313 5.705zM12 15.685c-2.018 0-3.65-1.632-3.65-3.65s1.632-3.65 3.65-3.65 3.65 1.632 3.65 3.65-1.632 3.65-3.65 3.65z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <!-- TikTok -->
+                    <a href="https://www.tiktok.com/@teffytis?is_from_webapp=1&sender_device=pc" target="_blank" class="text-gray-400 hover:text-cyan-400 transition-transform duration-300 hover:scale-110">
+                       <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-2.43.05-4.86-.95-6.69-2.81-1.75-1.76-2.59-4.18-2.61-6.75-.02-2.57.93-5.11 2.81-6.89 1.84-1.75 4.35-2.61 6.78-2.61.02 1.44-.02 2.88.02 4.32-.57-.02-1.14-.02-1.71 0-.6.02-1.18.21-1.72.59-.78.56-1.22 1.41-1.24 2.34-.02.93.41 1.84 1.22 2.36.82.52 1.86.63 2.74.31.9-.31 1.55-1.02 1.8-1.92.2-1.02.04-2.1-.68-2.93-.55-.63-1.28-1.11-2.13-1.32-.23-.06-.47-.08-.71-.08v-4.3c.91.13 1.8.45 2.63.93.57.34 1.09.77 1.56 1.28.01-.93.01-1.86.01-2.79-.01-1.3.01-2.6-.01-3.9z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div>
+                        <img src="sinfondo_logo (2).png" alt="Logo del Proyecto Zeta" class="rounded-lg shadow-2xl w-full h-auto">
+                    </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700/50">
+        <div class="container mx-auto px-6 py-6 text-center text-gray-500">
+            <p>&copy; 2025 Proyecto Zeta. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Lógica para el menú móvil
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Opcional: Cerrar menú móvil al hacer clic en un enlace
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
