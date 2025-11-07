@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Escalando la Innovación: De la Idea al Mercado - Blog Proyecto Zeta</title>
+    <title>Escalando la Innovación: De la Idea al Mercado - Proyecto Zeta</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,20 +15,82 @@
     </style>
 </head>
 <body class="bg-gray-900 text-gray-200">
-    <div class="container mx-auto px-6 py-12 max-w-4xl">
-        <h1 class="text-4xl font-extrabold text-white mb-2">Escalando la Innovación: De la Idea al Mercado</h1>
-        <p class="text-gray-400 mb-8">Por: Gisselle Mérida Cárdenas</p>
 
-        <div class="prose prose-invert prose-lg max-w-none text-gray-300">
-            <p>Este es el espacio para el contenido completo del artículo. Aquí puedes explicar las estrategias operativas y logísticas que usa el Proyecto Zeta.</p>
-            <p>Detallo las estrategias operativas que nos permiten llevar nuestras soluciones desde el laboratorio hasta un despliegue global de manera eficiente y sostenible. Un gran invento solo tiene impacto si llega a las personas adecuadas.</p>
-            <p>Puedes incluir casos de estudio, metodologías (como Agile o Lean) y los desafíos encontrados en el proceso de escalamiento.</p>
-            <!-- Continúa escribiendo el resto del artículo aquí -->
+    <header class="bg-gray-900/70 backdrop-blur-md sticky top-0 z-50 border-b border-cyan-500/10">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="index2.html" class="text-3xl font-extrabold text-white tracking-wider">
+                PROYECTO <span class="text-cyan-400">ZETA</span>
+            </a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index2.html#inicio" class="text-gray-300 hover:text-cyan-400 transition duration-300 font-medium">Inicio</a>
+                <a href="index2.html#blog" class="text-cyan-400 transition duration-300 font-medium">Blog</a>
+                <a href="index2.html#contacto" class="text-gray-300 hover:text-cyan-400 transition duration-300 font-medium">Contacto</a>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-gray-300 focus:outline-none">
+                <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+            </button>
         </div>
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-800 border-t border-cyan-500/10">
+            <a href="index2.html#inicio" class="block py-3 px-6 text-gray-300 hover:bg-gray-700">Inicio</a>
+            <a href="index2.html#blog" class="block py-3 px-6 text-cyan-400 hover:bg-gray-700">Blog</a>
+            <a href="index2.html#contacto" class="block py-3 px-6 text-gray-300 hover:bg-gray-700">Contacto</a>
+        </div>
+    </header>
 
-        <div class="mt-12">
-            <a href="index.html#blog" class="text-cyan-400 hover:text-cyan-300 font-semibold">&larr; Volver al Blog</a>
+    <main class="py-16">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="text-center mb-12">
+                <h1 class="text-5xl font-extrabold text-white mb-4">Escalando la Innovación: De la Idea al Mercado</h1>
+                <p class="text-lg text-gray-400">Por: Javier - <span class="text-cyan-400">Director de Operaciones</span></p>
+                <div class="mt-4 inline-block bg-purple-600/20 text-purple-400 text-sm font-semibold px-3 py-1 rounded-full">Estrategia Operativa</div>
+            </div>
+
+            <div class="prose prose-invert prose-lg max-w-none text-gray-300 leading-relaxed space-y-6">
+                <p class="text-xl font-medium border-l-4 border-cyan-400 pl-4 italic">
+                    Un gran invento solo tiene impacto si llega a las personas adecuadas. Detallo las estrategias operativas que nos permiten llevar nuestras soluciones desde el laboratorio hasta un despliegue global de manera eficiente y sostenible.
+                </p>
+
+                <h2 class="text-3xl font-bold text-white pt-4">Adopción de Metodologías Ágiles</h2>
+                <p>
+                    Para un proyecto de la magnitud de Proyecto Zeta, la agilidad es vital. Hemos implementado un modelo operativo **Agile (Scrum)** que nos permite iterar rápidamente, responder a los cambios del mercado y entregar valor continuamente a nuestros usuarios. Esto minimiza el riesgo y acelera el tiempo de lanzamiento.
+                </p>
+                
+                <h2 class="text-3xl font-bold text-white pt-4">La Cadena de Suministro Lean</h2>
+                <p>
+                    Nuestra infraestructura física y digital sigue principios **Lean**. Buscamos eliminar el desperdicio en cada proceso, desde la gestión de recursos de la nube hasta la optimización de los ciclos de desarrollo de hardware. Esta eficiencia no solo reduce costos, sino que también respalda nuestro compromiso de sostenibilidad.
+                </p>
+
+                <h2 class="text-3xl font-bold text-white pt-4">Preparación para el Despliegue Global</h2>
+                <p>
+                    La escalabilidad global no es solo un objetivo técnico, es logístico. Trabajamos con una arquitectura de microservicios que permite una expansión modular por región. Además, establecemos alianzas estratégicas para garantizar el cumplimiento normativo en cada territorio.
+                </p>
+                
+                <p class="pt-6 border-t border-purple-500/30 text-center text-sm text-gray-500">
+                    <a href="index2.html#blog" class="text-purple-400 hover:text-cyan-400 transition duration-300">← Volver al Blog</a>
+                </p>
+            </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="bg-gray-900 border-t border-purple-500/30 mt-16">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2025 Proyecto Zeta. Redefiniendo los límites de la tecnología. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+        mobileMenuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
 </body>
 </html>
